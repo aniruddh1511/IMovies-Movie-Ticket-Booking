@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" width="400" height="480">
+  <defs>
+    <linearGradient id="ppGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5f259f" />
+      <stop offset="100%" stop-color="#3d1469" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- Card Background -->
+  <rect width="400" height="480" rx="24" fill="#ffffff" filter="url(#shadow)"/>
+
+  <!-- PhonePe Purple Header Banner -->
+  <path d="M 0 24 Q 0 0 24 0 L 376 0 Q 400 0 400 24 L 400 90 L 0 90 Z" fill="url(#ppGrad)" />
+
+  <!-- PhonePe Brand Logo & Text -->
+  <g transform="translate(30, 24)">
+    <circle cx="24" cy="22" r="20" fill="#ffffff"/>
+    <text x="24" y="30" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="22" fill="#5f259f" text-anchor="middle">पे</text>
+    <text x="56" y="27" font-family="'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="24" fill="#ffffff" letter-spacing="0.5">PhonePe</text>
+    <text x="56" y="41" font-family="'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="11" fill="#e9d5ff">ACCEPTED HERE</text>
+  </g>
+
+  <!-- UPI Badge Top Right -->
+  <g transform="translate(305, 26)">
+    <rect width="65" height="34" rx="8" fill="#ffffff" fill-opacity="0.18"/>
+    <text x="32" y="22" font-family="'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="13" fill="#ffffff" text-anchor="middle">UPI</text>
+  </g>
+
+  <!-- Merchant Info Container -->
+  <g transform="translate(0, 105)">
+    <text x="200" y="16" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="16" fill="#1e293b" text-anchor="middle">IMovies Entertainment Pvt Ltd</text>
+    <text x="200" y="34" font-family="'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="12" fill="#64748b" text-anchor="middle">UPI ID: imovies@upi</text>
+  </g>
+
+  <!-- QR Frame Outer Box -->
+  <rect x="70" y="155" width="260" height="260" rx="16" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+
+  <!-- High-Fidelity Vector QR Code Pattern -->
+  <g transform="translate(90, 175) scale(0.88)">
+    <!-- Top-Left Finder -->
+    <rect x="0" y="0" width="70" height="70" rx="6" fill="#1e1b4b"/>
+    <rect x="10" y="10" width="50" height="50" rx="3" fill="#ffffff"/>
+    <rect x="20" y="20" width="30" height="30" rx="3" fill="#5f259f"/>
+
+    <!-- Top-Right Finder -->
+    <rect x="180" y="0" width="70" height="70" rx="6" fill="#1e1b4b"/>
+    <rect x="190" y="10" width="50" height="50" rx="3" fill="#ffffff"/>
+    <rect x="200" y="20" width="30" height="30" rx="3" fill="#5f259f"/>
+
+    <!-- Bottom-Left Finder -->
+    <rect x="0" y="180" width="70" height="70" rx="6" fill="#1e1b4b"/>
+    <rect x="10" y="190" width="50" height="50" rx="3" fill="#ffffff"/>
+    <rect x="20" y="200" width="30" height="30" rx="3" fill="#5f259f"/>
+
+    <!-- Timing & Data Modules -->
+    <rect x="80" y="25" width="10" height="10" fill="#1e1b4b"/>
+    <rect x="100" y="25" width="10" height="10" fill="#1e1b4b"/>
+    <rect x="120" y="25" width="10" height="10" fill="#1e1b4b"/>
+    <rect x="140" y="25" width="10" height="10" fill="#1e1b4b"/>
+    <rect x="160" y="25" width="10" height="10" fill="#1e1b4b"/>
+
+    <rect x="25" y="80" width="10" height="10" fill="#1e1b4b"/>
+    <rect x="25" y="100" width="10" height="10" fill="#1e1b4b"/>
+    <rect x="25" y="120" width="10" height="10" fill="#1e1b4b"/>
+    <rect x="25" y="140" width="10" height="10" fill="#1e1b4b"/>
+    <rect x="25" y="160" width="10" height="10" fill="#1e1b4b"/>
+
+    <!-- Dynamic Data Grid Dots -->
+    <rect x="80" y="50" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="100" y="50" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="135" y="50" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="155" y="50" width="12" height="12" rx="2" fill="#334155"/>
+
+    <rect x="80" y="75" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="110" y="75" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="135" y="75" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="155" y="75" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="180" y="75" width="12" height="12" rx="2" fill="#334155"/>
+
+    <rect x="50" y="100" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="75" y="100" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="175" y="100" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="200" y="100" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="225" y="100" width="12" height="12" rx="2" fill="#334155"/>
+
+    <rect x="50" y="125" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="75" y="125" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="175" y="125" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="210" y="125" width="12" height="12" rx="2" fill="#334155"/>
+
+    <rect x="80" y="150" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="105" y="150" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="130" y="150" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="160" y="150" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="190" y="150" width="12" height="12" rx="2" fill="#334155"/>
+
+    <rect x="80" y="180" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="110" y="180" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="140" y="180" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="170" y="180" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="200" y="180" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="230" y="180" width="12" height="12" rx="2" fill="#334155"/>
+
+    <rect x="80" y="210" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="120" y="210" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="150" y="210" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="180" y="210" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="210" y="210" width="12" height="12" rx="2" fill="#334155"/>
+
+    <rect x="80" y="235" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="105" y="235" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="135" y="235" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="165" y="235" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="195" y="235" width="12" height="12" rx="2" fill="#334155"/>
+    <rect x="225" y="235" width="12" height="12" rx="2" fill="#334155"/>
+
+    <!-- Center PhonePe Badge -->
+    <rect x="98" y="98" width="54" height="54" rx="12" fill="#ffffff" stroke="#5f259f" stroke-width="2"/>
+    <circle cx="125" cy="125" r="18" fill="#5f259f"/>
+    <text x="125" y="132" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="19" fill="#ffffff" text-anchor="middle">पे</text>
+  </g>
+
+  <!-- Bottom Supported Apps Bar -->
+  <g transform="translate(0, 435)">
+    <text x="200" y="12" font-family="'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11" fill="#64748b" text-anchor="middle">Scan with any UPI App: PhonePe • Google Pay • Paytm • BHIM</text>
+  </g>
+</svg>
